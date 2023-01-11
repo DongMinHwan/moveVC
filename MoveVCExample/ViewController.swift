@@ -25,7 +25,7 @@ class ViewController: UIViewController {
             button.addTarget(self, action: #selector(snapkitBtnClicked), for: .touchUpInside)
             return button
         }()
-     
+    
     //MARK: - Then을이용
 //    let snapkitBtn = UIButton().then {
 //        $0.setTitle("Back", for: .normal)
