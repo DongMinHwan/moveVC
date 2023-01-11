@@ -11,7 +11,7 @@ class CodeNextVC: UIViewController {
 
     let mainLabel = UILabel()
     var string : String = ""
-    //백버튼 생성
+    //MARK: - 백버튼 생성
     let backButton : UIButton = {
         let button = UIButton(type: .custom)
         button.setTitle("Back", for: .normal)
